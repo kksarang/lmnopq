@@ -560,7 +560,7 @@ object {
 
 img,
 video {
-  max-width: 100%;
+  max-width: 94%;
   height: auto;
 }
 
@@ -15397,10 +15397,12 @@ video {
 
 .bg-current{
   background-color: currentColor;
+
 }
 
 .bg-black{
   --tw-bg-opacity: 1;
+    padding: 20%;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
