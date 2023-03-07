@@ -522,6 +522,8 @@ samp {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
+
 /**
  * 1. Make replaced elements `display: block` by default as that's
  *    the behavior you want almost all of the time. Inspired by
@@ -564,6 +566,8 @@ video {
   height: auto;
 }
 
+
+
 /**
  * Ensure the default browser behavior of the `hidden` attribute.
  */
@@ -571,6 +575,8 @@ video {
 [hidden] {
   display: none;
 }
+
+
 
 *, ::before, ::after{
   --tw-border-opacity: 1;
@@ -15397,12 +15403,10 @@ video {
 
 .bg-current{
   background-color: currentColor;
-
 }
 
 .bg-black{
   --tw-bg-opacity: 1;
-    padding: 20%;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
@@ -188107,22 +188111,26 @@ video {
   .\32xl\:ease-in-out{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  #footer {
+    background: #ffffff;
+    color: #ffffff;
+    height: auto;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  #footer .copyright {
+    font-size: 13px;
+   color: #ffffff;
+  }
 }
 
 
---------------------------------------------------------------*/
-#footer {
-  background: #ffffff;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
- 
-  color: #ffffff;
-  height: auto;
-  font-size: 14px;
-  font-weight: 600;
-}
 
-#footer .copyright {
-  font-size: 13px;
- 
-  color: #ffffff;
-}
+
+
+
+
+
+
+
