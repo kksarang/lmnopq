@@ -560,7 +560,8 @@ object {
 
 img,
 video {
-  max-width: 94%;
+  max-width: 90%;
+
   height: auto;
 }
 
@@ -188107,4 +188108,22 @@ video {
   .\32xl\:ease-in-out{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+}
+
+
+--------------------------------------------------------------*/
+#footer {
+  background: #ffffff;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+ 
+  color: #ffffff;
+  height: auto;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#footer .copyright {
+  font-size: 13px;
+ 
+  color: #ffffff;
 }
